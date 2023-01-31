@@ -1,6 +1,10 @@
+/***********************TAG SELECTORS***********************/
 
 body {
     background-color: #FEFFDE;
+}
+th {
+    color: #304D4E;
 }
 hr {
     border-color: #91C788;
@@ -9,11 +13,40 @@ hr {
     width: 50%;
 }
 h1 {
-    color: #52734D;
+    color: #304D4E;
 }
 h2 {
-    color: #52734D;
+    color: #304D4E;
 }
 h3 {
     color: #52734D;
 }
+
+a:link {
+    color: #304D4E;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:visited {
+    color: #4CACBC;
+    background-color: transparent;
+    text-decoration: none;
+} 
+a:hover {
+    color: #52734D;
+    background-color: transparent;
+    text-decoration: underline;
+} 
+a:active {
+    color: #4CACBC;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/***********************CLASS SELECTORS***********************/
+
+.circular {
+    border-radius: 100%;
+}
+
+/***********************ID SELECTORS***********************/
